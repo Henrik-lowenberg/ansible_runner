@@ -1,0 +1,13 @@
+# build and packaging tools
+setuptools
+build
+wheel
+
+# test and develop
+bandit
+pylint
+pytest_cov
+mypy
+
+# ansible
+ansible_runner==2.3.4
