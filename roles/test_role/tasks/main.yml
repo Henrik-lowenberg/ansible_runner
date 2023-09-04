@@ -2,4 +2,4 @@
 # tasks file for test_role
 - name: running test_role
   ansible.builtin.debug:
-    msg: "running test_role yyyeaaaah"
+    msg: "running test_role on {{ ansible_hostname }}"
